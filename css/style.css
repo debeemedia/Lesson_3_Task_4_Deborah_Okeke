@@ -143,7 +143,7 @@ footer {
 }
 
 /**** For Extra-Extra-Large Devices ****/
-@media screen and (min-width: 1400px) {
+@media screen and (width >= 1400px) {
 	main .first-column div.image img {
 		width: 1000px;
 	}
@@ -158,14 +158,14 @@ footer {
 }
 
 /**** For Extra-Large Devices ****/
-@media screen and (min-width: 1200px) and (max-width: 1399px) {
+@media screen and (width >= 1200px) and (width <= 1399px) {
 	main .first-column div.image img {
 		width: 780px;
 	}
 }
 
 /**** For Large Devices ****/
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (width >= 992px) and (width <= 1199px) {
 	main .first-column div.image img {
 		width: 730px;
 	}
@@ -180,7 +180,7 @@ footer {
 }
 
 /**** For Medium Devices ****/
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (width >= 768px) and (width <= 991px) {
 	main .first-column div.image img {
 		width: 520px;
 	}
@@ -195,14 +195,14 @@ footer {
 }
 
 /**** For Small Devices ****/
-@media screen and (min-width: 576px) and (max-width: 767px) {
+@media screen and (width >= 576px) and (width <= 767px) {
 	main .first-column div.image img {
 		width: 350px;
 	}
 }
 
 /**** For Extra-Small Devices ****/
-@media screen and (max-width: 575px) {
+@media screen and (width <= 575px) {
 	header {
 		height: 100px;
 		font-size: 1.3em;
